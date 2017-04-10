@@ -8,27 +8,42 @@
 }*/
 
 .images-portfolio{
-  width: 40%;
+  width: 25%;
   display: inline-block;
-  margin-left: 10px;
-  margin-right: 10px;
+  margin-left: 25px;
+  margin-right: 25px;
+  padding-right: 25px;
+  padding-left: 25px;
 }
 
 .left-container{
   background-color: white;
-  border: solid black 5px;
+  border: grey 1px;
+  margin-left: 100px;
+  padding: 35px;
 }
 
+
+.left-container-portfolio{
+  background-color: white;
+  border: grey 1px;
+  margin-left: 50px;
+  padding: 25px;
+}
 .right-container{
   background-color: white;
-  border: solid black 5px;
+  border: grey 1px;
+  padding-bottom: 25px;
+  padding-top: 10px;
 }
 
 .thumb{
   margin-left: 10px;
   margin-right:10px;
-  padding: 0 10px;
+  padding: 10px;
+  /*width: 50%;*/
 }
+
 
 .container-footer{
   width: 100%;
@@ -96,6 +111,8 @@ nav a {
   color: #999;
   text-decoration: none;
   border-left: 1px solid #efefef;
+  font-size: 20px;
+
 }
 
 nav a:first-child {
@@ -119,4 +136,37 @@ body {
 .main-section-container{
   padding-top: 120px;
   padding-bottom: 75px;
+}
+
+.container-title{
+  color:#4aaaa5;
+  /*font-weight: bold*/
+}
+
+.container-header{
+  color:#4aaaa5;
+/*  font-weight: bold;
+*/}
+
+
+.container p{
+  text-align: center;
+  background-color: #4aaaa5;
+  position: right;
+  padding-top: 10px;
+  margin-top: 10px;
+
+}
+
+.btn-btn-primary{
+    padding: 10px 30px;
+    font-size: 18px;
+    color: #fff;
+    cursor: pointer;
+    background: #4aaaa5;
+    border: 0 none;
+}
+
+.marshmellow{
+  background-color: white;
 }
